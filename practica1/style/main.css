@@ -1,0 +1,155 @@
+/*globales*/
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h2 {
+    size: 34px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    
+}
+p {
+    line-height: 26px;
+    margin-bottom: 16px;
+    margin: 0 0 3rem;
+
+}
+.image {
+    display: flex;
+   
+}
+.image figure {
+    margin-right: 30px;
+}
+
+.list-porta,
+.list-services {
+    list-style: disc;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-top: 60px;
+}
+.list-services li {
+    margin-bottom: 20px;
+}
+.list-porta li {
+    margin-bottom: 20px;
+}
+/*header*/
+
+.header {
+    background: #00AF1C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    margin-bottom: 66px;
+    color:#fff
+}
+.header .logo {
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.header ul {
+    display: flex;
+    
+}
+.header li {
+    margin-left: 20px;
+}
+.header li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*main*/
+
+.main {
+    padding: 60px 30px;
+}
+.main > section {
+    margin-bottom: 80px;
+}
+
+
+/*home*/
+.home h2 {
+    color: #3B06D2;
+}
+.services h2 {
+    color:  #D206B2;
+}
+.portafolio h2 {
+    color: #AAD206;
+}
+.contact h2 {
+    color: #06D2C6;
+}
+/*list-services*/
+.list-services li:nth-child(1) {
+color: #FF0000;;
+
+}
+.list-services li:nth-child(2) {
+    color: #3B06D2;;
+}
+.list-services li:nth-child(3) {
+    color: #AE8800;
+}
+.list-services li:nth-child(4) {
+    color:darkolivegreen
+}
+/*lis-porta*/
+.lis-porta li:nth-child(1) {
+    color: #AE8800;
+}
+.list-porta li:nth-child(2) {
+    color: #FF0000;
+}
+.list-porta li:nth-child(3) {
+    color: #3B06D2;
+}
+.list-porta li:nth-child(4) {
+    color: darkgreen;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contact button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid  #00AF1C;
+    color:  #00AF1C;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #00AF1C;
+    color: #fff;
+    padding: 20px;
+}
+.footer p {
+    margin: 0;
+}
